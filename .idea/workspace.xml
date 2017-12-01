@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59282a19-f6e0-421b-bd80-eadc93b3bd91" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servicio_g/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+            <state relative-caret-position="759">
+              <caret line="124" column="61" lean-forward="false" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -101,6 +100,11 @@
             <path>
               <item name="servicio_g" type="b2602c69:ProjectViewProjectNode" />
               <item name="servicio_g" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicio_g" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicio_g" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +192,35 @@
       <option name="project" value="LOCAL" />
       <updated>1512168807262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se agregan archivos de estilo para django rest framework">
+      <created>1512168816835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512168816835</updated>
+    </task>
+    <task id="LOCAL-00006" summary="se eliminan archios de estilo de django rest framework">
+      <created>1512168937714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512168937714</updated>
+    </task>
+    <task id="LOCAL-00007" summary="De nuevo se colocan los archivos y cambia de direccion a STATIC_RROT">
+      <created>1512169117853</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512169117853</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cambia de direccion a STATIC_RROT">
+      <created>1512169240607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512169240607</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -249,7 +281,10 @@
     <MESSAGE value="Se agregan carpeta para archis staticos (static)" />
     <MESSAGE value="Cambiar el valor de STATIC_ROOT" />
     <MESSAGE value="Se agregan archivos de estilo para django rest framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregan archivos de estilo para django rest framework" />
+    <MESSAGE value="se eliminan archios de estilo de django rest framework" />
+    <MESSAGE value="De nuevo se colocan los archivos y cambia de direccion a STATIC_RROT" />
+    <MESSAGE value="Cambia de direccion a STATIC_RROT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambia de direccion a STATIC_RROT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -337,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servicio_g/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+        <state relative-caret-position="759">
+          <caret line="124" column="61" lean-forward="false" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
           <folding />
         </state>
       </provider>

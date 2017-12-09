@@ -9,8 +9,9 @@ router = routers.DefaultRouter()
 router.register(r'usuarios', Usr_systemViewSet)
 
 urlpatterns = [
+    url(r'^', include('apps.sg_usuario.urls')),
     url(r'^admin/', admin.site.urls),
-    url(r'^rest/', include(router.urls)),
+    url(r'^rest/', include(router.urls), name="restg"),
 ]
 
 if settings.DEBUG:

@@ -1,0 +1,20 @@
+{% extends "base_exc.html" %}
+{% load i18n %}
+
+{% block title %}{% trans 'Page not found' %}{% endblock %}
+
+{% block content %} {% endblock %}
+
+{% block content0 %}
+
+<div class="container cols-x7 text-center center-vertical">
+    <div class="intro-text">
+        <h1>{% trans 'Page not found' %}</h1>
+        <hr class="star-primary">
+        <h5 class="text-danger">{% trans "We're sorry, but the requested page could not be found." %}</h5>
+        <a href="{% url 'admin:index' %}" class="btn btn-danger">{% trans 'Home'%}</a>
+    </div>
+</div>
+
+{% endblock %}
+

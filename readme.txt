@@ -10,7 +10,7 @@ En este servico rest de prueba, se puede registrar y consultar a usuarios con lo
 	>> dni (IDENTIFICACION)
 
 
-Se crea con el fin de hacer pruebas para coneción con aplicación android.
+Se crea con el fin de hacer pruebas para conexión con aplicación android.
 
 
 

@@ -71,16 +71,28 @@
                 showClear();
             }
         });
+<<<<<<< HEAD
         $(options.allToggle).show().on('click', function() {
             checker($(this).prop("checked"));
             updateCounter();
         });
         $("a", options.acrossQuestions).on('click', function(event) {
+=======
+        $(options.allToggle).show().click(function() {
+            checker($(this).prop("checked"));
+            updateCounter();
+        });
+        $("a", options.acrossQuestions).click(function(event) {
+>>>>>>> origin/master
             event.preventDefault();
             $(options.acrossInput).val(1);
             showClear();
         });
+<<<<<<< HEAD
         $("a", options.acrossClears).on('click', function(event) {
+=======
+        $("a", options.acrossClears).click(function(event) {
+>>>>>>> origin/master
             event.preventDefault();
             $(options.allToggle).prop("checked", false);
             clearAcross();
@@ -88,7 +100,11 @@
             updateCounter();
         });
         lastChecked = null;
+<<<<<<< HEAD
         $(actionCheckboxes).on('click', function(event) {
+=======
+        $(actionCheckboxes).click(function(event) {
+>>>>>>> origin/master
             if (!event) { event = window.event; }
             var target = event.target ? event.target : event.srcElement;
             if (lastChecked && $.data(lastChecked) !== $.data(target) && event.shiftKey === true) {
@@ -112,12 +128,20 @@
         $('form#changelist-form table#result_list tr').on('change', 'td:gt(0) :input', function() {
             list_editable_changed = true;
         });
+<<<<<<< HEAD
         $('form#changelist-form button[name="index"]').on('click', function(event) {
+=======
+        $('form#changelist-form button[name="index"]').click(function(event) {
+>>>>>>> origin/master
             if (list_editable_changed) {
                 return confirm(gettext("You have unsaved changes on individual editable fields. If you run an action, your unsaved changes will be lost."));
             }
         });
+<<<<<<< HEAD
         $('form#changelist-form input[name="_save"]').on('click', function(event) {
+=======
+        $('form#changelist-form input[name="_save"]').click(function(event) {
+>>>>>>> origin/master
             var action_changed = false;
             $('select option:selected', options.actionContainer).each(function() {
                 if ($(this).val()) {

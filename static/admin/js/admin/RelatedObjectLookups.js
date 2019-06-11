@@ -58,7 +58,11 @@
 
     function updateRelatedObjectLinks(triggeringLink) {
         var $this = $(triggeringLink);
+<<<<<<< HEAD
         var siblings = $this.nextAll('.view-related, .change-related, .delete-related');
+=======
+        var siblings = $this.nextAll('.change-related, .delete-related');
+>>>>>>> origin/master
         if (!siblings.length) {
             return;
         }
@@ -146,7 +150,11 @@
     window.dismissAddAnotherPopup = dismissAddRelatedObjectPopup;
 
     $(document).ready(function() {
+<<<<<<< HEAD
         $("a[data-popup-opener]").on('click', function(event) {
+=======
+        $("a[data-popup-opener]").click(function(event) {
+>>>>>>> origin/master
             event.preventDefault();
             opener.dismissRelatedLookupPopup(window, $(this).data("popup-opener"));
         });

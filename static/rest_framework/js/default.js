@@ -41,7 +41,11 @@ $(document).ready(function() {
     $('.form-switcher a:first').tab('show');
   }
 
+<<<<<<< HEAD
   $(window).on('load', function() {
+=======
+  $(window).load(function() {
+>>>>>>> origin/master
     $('#errorModal').modal('show');
   });
 });

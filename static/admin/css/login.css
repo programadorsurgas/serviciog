@@ -6,8 +6,12 @@ body.login {
 
 .login #header {
     height: auto;
+<<<<<<< HEAD
     padding: 15px 16px;
     justify-content: center;
+=======
+    padding: 5px 16px;
+>>>>>>> origin/master
 }
 
 .login #header h1 {

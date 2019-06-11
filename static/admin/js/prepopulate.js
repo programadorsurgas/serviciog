@@ -30,12 +30,20 @@
             };
 
             prepopulatedField.data('_changed', false);
+<<<<<<< HEAD
             prepopulatedField.on('change', function() {
+=======
+            prepopulatedField.change(function() {
+>>>>>>> origin/master
                 prepopulatedField.data('_changed', true);
             });
 
             if (!prepopulatedField.val()) {
+<<<<<<< HEAD
                 $(dependencies.join(',')).on('keyup change focus', populate);
+=======
+                $(dependencies.join(',')).keyup(populate).change(populate).focus(populate);
+>>>>>>> origin/master
             }
         });
     };
